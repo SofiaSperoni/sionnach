@@ -1,0 +1,437 @@
+ body{
+    margin: 0 auto;
+    background-image: url(img/inverness.jpg);
+    background-repeat: repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+     margin: 8px;
+        }
+
+#headercontenedor{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: block;
+    float: center;
+    text-align: center
+}
+
+header{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header h1{
+    background-image: url(img/logochico.jpg);
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 142px;
+    text-indent: -1999px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+nav{
+    margin: 0 auto;
+}
+
+#menu {
+   margin: 0 auto;
+   
+}
+
+#menu li {
+    display: inline-block;
+    
+}
+
+#menu li a {
+    font-family: Arial;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+#menu li a:hover {
+    background-color: brown;
+}
+
+#menu li span {
+    font-family: Arial;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+#maincontenedor{
+    width: 1024px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+    text-align: center;
+}
+
+#home{
+    background: url(img/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width 950px;
+    height: 576px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#home p{
+    margin: 0px;
+    padding-top: 250px;
+    font-size: 80px;
+}
+
+#historia{
+    background: url(img/historia.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width 950px;
+    height: 740px;
+    
+}
+
+#historia h2{
+    margin: 0px;
+   padding-top: 70px;
+    padding-bottom: 65px;
+    padding-right: 200px;
+    text-align: right;
+    font-size: 40px;
+    color: white;
+}
+
+#historia p{
+    text-align: center;
+    padding-right: 600px;
+    padding-left: 130px;
+    margin-top: 0px;
+    font-size: 25px;
+    color: white
+}
+
+#productos{
+    background: url(img/prod.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    width 950px;
+    height: 690px;
+    margin-top: 0 auto;
+}
+
+#prod1{
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+    padding-top: 125px;
+    font-size: 20px;
+    color: white;
+}
+
+#prod2{
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 125px;
+    font-size: 35px;
+    color: white;
+}
+
+#prod3{
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-top: 125px;
+    font-size: 20px;
+    color: white;
+}
+
+#col1{
+    width: 240px;
+    height: 290px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+#col2{
+    width: 240px;
+    height: 290px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+#col3{
+    width: 240px;
+    height: 290px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+#recetas{
+     background: url(img/recetas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width 950px;
+    height: 1270px;
+}
+
+#recetas h2{
+    margin: 0px;
+    padding-top: 70px;
+    padding-bottom: 25px;
+    padding-left: 130px;
+    text-align: left;
+    font-size: 40px;
+    color: white;
+}
+
+#recetas p{
+    text-align: left;
+    margin: 0px;
+    padding-left: 130px;
+    padding-right: 650px;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 50px
+}
+
+#receta1{
+    width: 775px;
+    height: 280px;
+    display: block;
+    vertical-align: top;
+    margin-left: 130px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+#receta1 ul{
+    margin: 5px;
+}
+
+#receta1 li{
+    width: 500px;
+    padding: 5px;
+    margin-left: 200px;
+}
+
+#receta1 p{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin-left: 90px;
+    font-size: 25px
+}
+
+#receta2{
+    width: 775px;
+    height: 280px;
+    display: block;
+    vertical-align: top;
+    margin-left: 130px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: right;
+    color: white;
+    font-size: 20px;
+}
+
+#receta2 ul{
+    margin: 5px;
+}
+
+#receta2 li{
+    width: 500px;
+    padding: 5px;
+    margin-right: 200px;
+}
+
+#receta2 p{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 420px;
+    margin-right: 90px;
+    font-size: 25px
+}
+
+#receta3{
+    width: 775px;
+    height: 280px;
+    display: block;
+    vertical-align: top;
+    margin-left: 130px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+#receta3 ul{
+    margin: 5px;
+}
+
+#receta3 li{
+    width: 500px;
+    padding: 5px;
+    margin-left: 200px;
+}
+
+#receta3 p{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin-left: 90px;
+    font-size: 25px
+}
+
+.der{
+    float: right;
+}
+
+.izq{
+    float: left;
+}
+
+#fan{
+     background: url(img/fan.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width 950px;
+    height: 1050px;
+}
+
+#fan h2{
+    margin: 0px;
+    padding-top: 70px;
+    padding-bottom: 25px;
+    padding-right: 130px;
+    text-align: right;
+    font-size: 40px;
+    color: white;
+}
+
+#facebook{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+#instagram{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+#twitter{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+form {
+    width: 775px;
+    padding-left: 130px;
+    
+}
+
+.container {
+    vertical-align: center;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+h3{
+    font-size: 30px;
+    color: white
+}
+
+input[type=text], input[type=submit] {
+  width: 50%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: orangered;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+footer{
+    height: 100px;
+    width: 910px;
+    padding: 20px;
+    margin-left: 36px;
+   margin-top: -140px;
+}
+
+footer p{
+    color: darkgrey;
+}
+
+footer a{
+    color: orange;
+}
+
+.subir {
+  display: inline-block;
+  text-decoration: none;
+    color: white;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: black;
+  padding: 1rem;
+    position: fixed;
+    top: 94%;
+    left: 90%;   
+}
